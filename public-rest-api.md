@@ -4,14 +4,14 @@ These are open data for public. It doesn't need an API key to call these methods
  - [General API Information](#general-api-information)
  - [Limit](#limit)
  - [API](#api)
-     - [/api/server_time](#server-time) 
-     - [/api/pairs](#pairs)  
-     - [/api/price_increments](#price-increments)
-     - [/api/summaries](#summaries)
-     - [/api/ticker/$pair_id](#ticker)
-     - [/api/ticker_all](#ticker-all)
-     - [/api/trades/$pair_id](#trades)
-     - [/api/depth/$pair_id](#depth)
+     - [/api/v1/server_time](#server-time) 
+     - [/api/v1/pairs](#pairs)  
+     - [/api/v1/price_increments](#price-increments)
+     - [/api/v1/summaries](#summaries)
+     - [/api/v1/ticker/$pair_id](#ticker)
+     - [/api/v1/ticker_all](#ticker-all)
+     - [/api/v1/trades/$pair_id](#trades)
+     - [/api/v1/depth/$pair_id](#depth)
 
 
 ## General API Information
