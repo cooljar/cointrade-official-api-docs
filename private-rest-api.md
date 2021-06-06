@@ -18,3 +18,12 @@
 
 ## Error Codes
 * Any endpoint can return an ERROR
+
+Sample Payload below:
+```javascript
+{
+    "success": 0,
+    "error": "Invalid credentials. API not found or session has expired.",
+    "error_code": "invalid_credentials"
+}
+```
