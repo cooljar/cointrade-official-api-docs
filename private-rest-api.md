@@ -1,14 +1,20 @@
-# Official Documentation for the Cointrade Exchange APIs.
+**Table of Contents**
+- [General API Information](#general-api-information)
+- [Error Codes](#error-codes)
+- [General Information on Endpoints](#general-information-on-endpoints)
+- [Endpoint security type](#endpoint-security-type)
+- [SIGNED (TRADE and USER_DATA) Endpoint security](#signed-trade-and-user_data-endpoint-security)
+    - [Timing Security](#timing-security)
+    - [SIGNED Endpoint](#signed-endpoint-examples-for-post-getinfo)
+- [Private API Endpoint](#private-api-endpoint)
+    - [ENUM definitions](#enum-definitions)
+    - [Private API endpoints](#private-api-endpoints)
 
-* Endpoints, parameters, payloads, etc. described in the documents in this repository are considered **official** and **supported**.
-* The use of any other endpoints, parameters, or payloads, etc. is **not supported**; **use them at your own risk and with no guarantees.**
+## General API Information
+* The base endpoint is: **https://papi.cointrade.id**
+* All endpoints return either a JSON object or array.
+* Data is returned in **descending** order. newest first, oldest last.
+* All time and timestamp related fields are in **milliseconds**.
 
-
-Name | Description | Example | Version
------------- | ------------ | ------------ | ------------
-[Public REST API](./public-rest-api.md) | Public API Documentation | |
-[Private REST API](./private-rest-api.md) | Private API Documentation | [PHP](./example/private-rest-api-php.md) | v1.0.0
-
-### Todo
- - Add Troubleshooting 
- - Add Code Examples
+## Error Codes
+* Any endpoint can return an ERROR
