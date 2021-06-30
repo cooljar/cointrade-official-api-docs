@@ -7,7 +7,7 @@
 Name | Description | Example | Version
 ------------ | ------------ | ------------ | ------------
 [Public REST API](./public-rest-api.md) | Public API Documentation | |
-[Private REST API](./private-rest-api.md) | Private API Documentation | [PHP](./example/private-rest-api-php.md) | v1.0.0
+[Private REST API](./private-rest-api.md) | Private API Documentation | | v1.0.0
 
 ### Todo
  - Add Troubleshooting 
